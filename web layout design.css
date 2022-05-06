@@ -1,0 +1,59 @@
+html
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #20eeee52;
+    text-shadow: 2px 2px #082e3d;
+}
+
+.leftcolumn {
+    float: left;
+    width: 60%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: rgba(252, 195, 10, 0.856);
+    width: 50%;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: black solid 2px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background: rgb(123, 149, 233);
+    place-items: center;
+    margin: 10px;
+    border: #082e3d 2px solid;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
